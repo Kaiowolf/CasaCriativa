@@ -126,6 +126,7 @@ footer a {
 }
 
 .idea {
+  justify-content: flex-end;
   background-color: #fff;
   display: flex;
   margin-bottom: 32px;
@@ -151,6 +152,22 @@ footer a {
 
 .idea .description {
   margin: 16px 0;
+}
+
+.img-delete {
+  
+  position:absolute;
+  margin-right: 0;
+}
+
+.img-delete img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+.img-delete img:hover {
+  opacity: 0.8;
 }
 
 /* Modal */
